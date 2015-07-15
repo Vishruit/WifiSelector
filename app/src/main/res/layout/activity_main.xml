@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eT"
+        android:layout_alignTop="@+id/listView"
+        android:layout_alignRight="@+id/listView"
+        android:layout_alignEnd="@+id/listView"
+        android:inputType="text"
+        android:hint="Please enter your name" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Three"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button1_4"
+        android:layout_alignStart="@+id/button1_4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wifi Connection"
+        android:id="@+id/button1_4"
+        android:layout_below="@+id/button"
+        android:layout_alignRight="@+id/eT"
+        android:layout_alignEnd="@+id/eT" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wifi_list"
+        android:id="@+id/buttonToWifi"
+        android:layout_below="@+id/button1_4"
+        android:layout_alignLeft="@+id/button1_4"
+        android:layout_alignStart="@+id/button1_4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scroll"
+        android:id="@+id/btnScroll"
+        android:layout_below="@+id/buttonToWifi"
+        android:layout_alignLeft="@+id/buttonToWifi"
+        android:layout_alignStart="@+id/buttonToWifi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Splash"
+        android:id="@+id/buttonSplash"
+        android:layout_below="@+id/btnScroll"
+        android:layout_alignLeft="@+id/btnScroll"
+        android:layout_alignStart="@+id/btnScroll" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activity Four"
+        android:id="@+id/buttonToActFour"
+        android:layout_above="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:id="@+id/buttonToListView"
+        android:layout_above="@+id/buttonToActFour"
+        android:layout_alignLeft="@+id/buttonToActFour"
+        android:layout_alignStart="@+id/buttonToActFour" />
+
+</RelativeLayout>

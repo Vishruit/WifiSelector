@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Calibrate">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Scan"
+        android:id="@+id/btnStartScan"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calibrate"
+        android:id="@+id/btnCalibrate"
+        android:layout_below="@+id/btnStartScan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Values"
+        android:id="@+id/btnSaveValues"
+        android:layout_below="@+id/btnCalibrate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overwrite Previous Data"
+        android:id="@+id/btnOverwrite"
+        android:layout_below="@+id/btnSaveValues"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save New Hotspots"
+        android:id="@+id/btnSaveNewNetworks"
+        android:layout_below="@+id/btnOverwrite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eT"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/btnSaveValues"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Please enter here" />
+
+</RelativeLayout>
