@@ -25,7 +25,7 @@ public class MyReceiver extends BroadcastReceiver {
         // an Intent broadcast.
         throw new UnsupportedOperationException("Not yet implemented");
 
-        // Buggy code 
+        // Buggy code
 
 
 //        List<ScanResult> wifiList = mainWifi.getScanResults();

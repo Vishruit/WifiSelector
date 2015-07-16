@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 public class Menu extends ListActivity {
 
-    String classes[] = {"ActivityFour", "ActivityThree", "MainActivity",
+    String classes[] = {"SoftwareSwitch" ,"ActivityFour", "ActivityThree", "MainActivity",
             "Scrollable", "WifiConnection", "WifiScanner", "MainActivity2",
             "initialActivity", "ExpandableListView", "CustomAdapter",
             "CustomListViewAndroidExample", "Calibrate", "WirelessSwitch",

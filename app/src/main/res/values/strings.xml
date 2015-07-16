@@ -20,5 +20,6 @@
     <string name="title_activity_object_receiver">objectReceiver</string>
     <string name="title_activity_wifi_triangulation">WifiTriangulation</string>
     <string name="title_activity_sensors_data">sensorsData</string>
+    <string name="title_activity_software_switch">SoftwareSwitch</string>
 
 </resources>
